@@ -22,7 +22,7 @@
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
-  
+
   <div id="app">
     <div id="wrapper">
       @yield('menu')
@@ -30,7 +30,7 @@
       @yield('content')
       @yield('footer')
       @yield('content-wrapper')
-      
+
     </div>
   </div>
 
@@ -38,6 +38,7 @@
 
 
 
+  <script src="{{ asset('js/app.js') }}"></script>
   <script src="{{ asset("/admin-lte/plugins/jQuery/jquery-2.2.3.min.js") }}"></script>
   <script src="{{ asset("/admin-lte/bootstrap/js/bootstrap.min.js") }}"></script>
   <script src="{{ asset("/admin-lte/plugins/fastclick/fastclick.js") }}"></script>
@@ -61,7 +62,7 @@
   <script src="{{ asset("/admin-lte/plugins/chartjs/Chart.min.js") }}"></script>
   <script src="{{ asset("/admin-lte/dist/js/pages/dashboard.js") }}"></script>
   <script src="{{ asset("/admin-lte/dist/js/demo.js") }}"></script>
-  <script src="{{ asset('js/app.js') }}"></script>
+
 
 </body>
 </html>
